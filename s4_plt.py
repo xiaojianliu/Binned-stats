@@ -1,21 +1,10 @@
 """
-p3_rmtide_gap.py
- quchu shijian kuadu dayu 12xiaoshidedian bingqie sudu dayu2.7m/s dedian
-remove tide and find gaps in data
-
-compare drifter dataset velocity with fvcom hincast
-following the drifter trajectory.
-fvcom data pydap access from monthly files.
-
-To do: 
-1. spacial interpolation of fvcom velocity data
-currently, the nearest neighbor
-@author: Vitalii Sheremet, FATE Project
+draw the time span is more than 12 hours and speed is greater than 2.7m/s the point of the image
+@author: Vitalii Sheremet, xiaojian
 """
 
 # -*- coding: utf-8 -*-
 import numpy as np
-#from pydap.client import open_url
 import matplotlib.pyplot as plt
 from SeaHorseLib import *
 from datetime import *
@@ -23,10 +12,10 @@ from scipy import interpolate
 import sys
 from SeaHorseTide import *
 import shutil
-
+##############hard code###################
 SOURCEDIR='driftfvcom_data3/'
 DESTINDIR='driftfvcom_data4/'
-
+#########################################
 FList = np.genfromtxt(SOURCEDIR+'FList.csv',dtype=None,names=['FNs'],delimiter=',')
 FNs=list(FList['FNs'])
 
