@@ -25,7 +25,16 @@ from SeaHorseTide import *
 import shutil
 import matplotlib.mlab as mlab
 import matplotlib.cm as cm
+#######################hard code####################3
 
+SOURCEDIR='driftfvcom_data4/'
+DESTINDIR='driftfvcom_data4/'
+lath=np.array([])
+lonh=np.array([])
+th=np.array([])
+flagh=np.array([])
+u=np.array([])
+v=np.array([])
 
 def sh_bindata(x, y, z, xbins, ybins):
     """
@@ -50,23 +59,10 @@ def sh_bindata(x, y, z, xbins, ybins):
             zb_num[iix-1,iiy-1]=len(z[k])
             
     return xb,yb,zb_mean,zb_median,zb_std,zb_num
-#    return xb,yb,zb_median,zb_num
-
-###########################################################
-
-SOURCEDIR='driftfvcom_data4/'
-DESTINDIR='driftfvcom_data4/'
 
 FList = np.genfromtxt(SOURCEDIR+'FList.csv',dtype=None,names=['FNs'],delimiter=',')
 FNs=list(FList['FNs'])
 
-lath=np.array([])
-lonh=np.array([])
-th=np.array([])
-flagh=np.array([])
-u=np.array([])
-v=np.array([])
-#for k in range(10):
 for k in range(len(FNs)):
     FN=FNs[k]
     #ID_19965381.npz
