@@ -1,6 +1,8 @@
 """
-binned_model.npz
-xb=xb,yb=yb,ub_mean=ub_mean,ub_median=ub_median,ub_std=ub_std,ub_num=ub_num,vb_mean=vb_mean,vb_median=vb_median,vb_std=vb_std,vb_num=vb_num)
+s5_binavguv_model.py
+output a file names 
+its name is binned_model.npz
+the file include the data of xb,yb,ub_mean,ub_median,ub_std,ub_num,vb_mean,vb_median,vb_std,vb_num
 @author: Vitalii Sheremet, FATE Project
 """
 
