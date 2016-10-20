@@ -1,18 +1,17 @@
 #http://www.ngdc.noaa.gov/mgg/coast/
 # coast line data extractor
 
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 
 """
+use binned stats to draw two pictures(drifter and model's average velocity)
 Created on Fri Oct 12 15:27:09 2012
 
 @author: vsheremet
 """
 import numpy as np
-#from pydap.client import open_url
 import matplotlib.pyplot as plt
 from SeaHorseLib import *
 from datetime import *
-#from scipy import interpolate
 import sys
 from SeaHorseTide import *
 import shutil
