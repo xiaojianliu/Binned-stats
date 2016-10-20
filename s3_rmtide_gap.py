@@ -22,7 +22,7 @@ from scipy import interpolate
 import sys
 from SeaHorseTide import *
 
-
+#######################hard code#########################
 SOURCEDIR='driftfvcom_data2/'
 DESTINDIR='driftfvcom_data3/'
 
