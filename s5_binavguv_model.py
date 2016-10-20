@@ -45,7 +45,7 @@ def sh_bindata(x, y, z, xbins, ybins):
     return xb,yb,zb_mean,zb_median,zb_std,zb_num
 #    return xb,yb,zb_median,zb_num
 
-###########################################################
+############################hard code###############################
 
 SOURCEDIR='driftfvcom_data4/'
 DESTINDIR='driftfvcom_data4/'
