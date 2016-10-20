@@ -1,6 +1,5 @@
 """
 p3_rmtide_gap.py
-QU chu shijian kuadu dayu 9xiaoshi de dian
 remove tide and find gaps in data
 
 compare drifter dataset velocity with fvcom hincast
