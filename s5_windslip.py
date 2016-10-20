@@ -21,7 +21,7 @@ import matplotlib.mlab as mlab
 import matplotlib.cm as cm
 
 
-###########################################################
+##########################hard code#################################
 
 SOURCEDIR='driftfvcom_data4/'
 DESTINDIR='driftfvcom_data4/'
