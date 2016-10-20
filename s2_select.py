@@ -9,7 +9,7 @@ import numpy as np
 import shutil
 
 # use ls *.npz > FList.csv to create the file list
-
+#########################hard code##############
 SOURCEDIR='driftfvcom_data1/'
 DESTINDIR='driftfvcom_data2/'
 
