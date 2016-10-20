@@ -1,6 +1,8 @@
 """
 s5_binavguv_drifter.py
-
+output a file names 
+its name is binned_drifter.npz
+the file include the data of xb,yb,ub_mean,ub_median,ub_std,ub_num,vb_mean,vb_median,vb_std,vb_num
 @author: Vitalii Sheremet, xiaojian
 """
 
