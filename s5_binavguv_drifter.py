@@ -1,16 +1,7 @@
 """
-p3_rmtide_gap.py
+s5_binavguv_drifter.py
 
-remove tide and find gaps in data
-
-compare drifter dataset velocity with fvcom hincast
-following the drifter trajectory.
-fvcom data pydap access from monthly files.
-
-To do: 
-1. spacial interpolation of fvcom velocity data
-currently, the nearest neighbor
-@author: Vitalii Sheremet, FATE Project
+@author: Vitalii Sheremet, xiaojian
 """
 
 # -*- coding: utf-8 -*-
