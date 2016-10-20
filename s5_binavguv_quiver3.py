@@ -3,19 +3,14 @@
 
 # -*- coding: utf-8 -*-
 """
-Created on Fri Oct 12 15:27:09 2012
+draw four pictures(binned_drifter_mean,binned_model_mean,binned_drifter_std,binned_model_std)
+(same to s5_binavguv_quiver2)
+Created on Fri Oct 20 15:27:09 2016
 
 @author: vsheremet
 """
 import numpy as np
-#from pydap.client import open_url
 import matplotlib.pyplot as plt
-#from SeaHorseLib import *
-#from datetime import *
-#from scipy import interpolate
-#import sys
-#from SeaHorseTide import *
-#import shutil
 import matplotlib.mlab as mlab
 import matplotlib.cm as cm
 
