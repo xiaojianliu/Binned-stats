@@ -25,8 +25,8 @@ import matplotlib.cm as cm
 
 SOURCEDIR='driftfvcom_data4/'
 DESTINDIR='driftfvcom_data4/'
-
-FList = np.genfromtxt(SOURCEDIR+'FList.csv',dtype=None,names=['FNs'],delimiter=',')
+name='FList.csv'
+FList = np.genfromtxt(SOURCEDIR+name,dtype=None,names=['FNs'],delimiter=',')
 FNs=list(FList['FNs'])
 
 lath=np.array([])
