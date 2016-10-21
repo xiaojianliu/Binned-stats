@@ -25,8 +25,8 @@ from SeaHorseTide import *
 #######################hard code#########################
 SOURCEDIR='driftfvcom_data2/'
 DESTINDIR='driftfvcom_data3/'
-aa='FList.csv'
-FList = np.genfromtxt(SOURCEDIR+aa,dtype=None,names=['FNs'],delimiter=',')
+name='FList.csv'
+FList = np.genfromtxt(SOURCEDIR+name,dtype=None,names=['FNs'],delimiter=',')
 FNs=list(FList['FNs'])
 kdr=0
 
