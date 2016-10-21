@@ -26,7 +26,7 @@ th=np.array([])
 flagh=np.array([])
 u=np.array([])
 v=np.array([])
-
+name='FList.csv'
 def sh_bindata(x, y, z, xbins, ybins):
     """
     Bin irregularly spaced data on a rectangular grid.
@@ -51,7 +51,7 @@ def sh_bindata(x, y, z, xbins, ybins):
             
     return xb,yb,zb_mean,zb_median,zb_std,zb_num
 
-FList = np.genfromtxt(SOURCEDIR+'FList.csv',dtype=None,names=['FNs'],delimiter=',')
+FList = np.genfromtxt(SOURCEDIR+name,dtype=None,names=['FNs'],delimiter=',')
 FNs=list(FList['FNs'])
 
 for k in range(len(FNs)):
