@@ -15,8 +15,9 @@ import shutil
 ##############hard code###################
 SOURCEDIR='driftfvcom_data3/'
 DESTINDIR='driftfvcom_data4/'
+aa='FList.csv'
 #########################################
-FList = np.genfromtxt(SOURCEDIR+'FList.csv',dtype=None,names=['FNs'],delimiter=',')
+FList = np.genfromtxt(SOURCEDIR+aa,dtype=None,names=['FNs'],delimiter=',')
 FNs=list(FList['FNs'])
 
 k=0
