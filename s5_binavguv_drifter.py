@@ -19,6 +19,11 @@ import shutil
 import matplotlib.mlab as mlab
 import matplotlib.cm as cm
 
+##########################hard code#################################
+
+SOURCEDIR='driftfvcom_data4/'
+DESTINDIR='driftfvcom_data4/'
+name='FList.csv'
 
 def sh_bindata(x, y, z, xbins, ybins):
     """
@@ -47,12 +52,8 @@ def sh_bindata(x, y, z, xbins, ybins):
     return xb,yb,zb_mean,zb_median,zb_std,zb_num
 #    return xb,yb,zb_median,zb_num
 
-##########################hard code#################################
 
-SOURCEDIR='driftfvcom_data4/'
-DESTINDIR='driftfvcom_data4/'
-
-FList = np.genfromtxt(SOURCEDIR+'FList.csv',dtype=None,names=['FNs'],delimiter=',')
+FList = np.genfromtxt(SOURCEDIR+name,dtype=None,names=['FNs'],delimiter=',')
 FNs=list(FList['FNs'])
 
 lath=np.array([])
