@@ -18,10 +18,8 @@ reset kdhour.txt file
 """
 
 import numpy as np
-#import matplotlib.pyplot as plt
 from SeaHorseLib import *
 from datetime import *
-#from scipy import interpolate
 import sys
 from SeaHorseTide import *
 
