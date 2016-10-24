@@ -8,11 +8,11 @@ the file include the data of xb,yb,ub_mean,ub_median,ub_std,ub_num,vb_mean,vb_me
 
 # -*- coding: utf-8 -*-
 import numpy as np
-#from pydap.client import open_url
+
 import matplotlib.pyplot as plt
 from SeaHorseLib import *
 from datetime import *
-#from scipy import interpolate
+
 import sys
 from SeaHorseTide import *
 import shutil
